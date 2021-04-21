@@ -86,7 +86,7 @@ public:
 	}
 
 	tableprinter& operator<<(align dr) {
-		
+		align_ = dr;
 		return *this;
 	}
 
